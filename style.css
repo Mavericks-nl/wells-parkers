@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+font-family: 'Rubik', sans-serif;
+
+}
+    
+
+.nav-bar{
+    
+    
+    width: 100%;
+    background-color: #8ED1FC;
+    display: flex;
+    height: 4em;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0px 5px 32px 3px rgba(3,24,83,1);
+   
+}
+
+
+.logo {
+    
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: yellowgreen;
+    background-color: #031853;
+    padding: 0.3em;
+}
+
+
+
+
+.nav-list {
+    text-decoration: none;
+    float: right;
+    padding-top: 0.5em;
+    /*padding-right: 10em;*/
+}
+
+a.nav-link {
+    text-decoration: none;
+    /*margin: 0 1em;
+    padding: 3px 6px;*/
+    font-weight: 900;
+    font-size: large;
+    color: rgb(2, 1, 1);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+a.nav-link:hover {
+    background-color: aliceblue;
+    color: #8ED1FC;
+
+}
+ 
+a.nav-link.jobs {
+
+    background-color: white;
+    border-radius: 5px;
+    color: #8ED1FC;
+
+}
+
+a.nav-link.jobs:hover {
+    background-color: #8ED1FC;
+    color: white;
+}
+
+.main {
+    display: flex;
+    margin-top: 4em;
+    padding: 0 2em;
+    font-family: 'Rubik', sans-serif;
+    justify-content: space-around;
+    
+}
+
+.content-text {
+    padding: 4em 0 4em 0;
+    font-size: 20px;
+}
+
+
+span.comp-name {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    
+    color: #031853;
+    font-family: 'Rubik', sans-serif;
+}
+
+.motto {
+    font-size: 20px;
+    color: #031853;
+    word-wrap: break-word;
+    
+}
+
+div.main-sec {
+    background-color: #8ED1FC;
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0 0 0;
+    padding-bottom: 3em;
+
+}
+
+.content-text2 {
+    padding-top: 8em;
+    padding: 2em;
+    
+    
+}
+
+
+.form {
+    margin-top: 3em;
+    padding: 2em 0;
+    
+    justify-content: center;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+    width: 30em;
+    border-radius: 10px 0 10px 0;
+}
+
+.form p {
+    font-size: 30px;
+    font-weight: 900;
+}
+input {
+    max-width: 25em;
+    width: 19em;
+    height: 4em;
+    text-align: left;
+    background-color: #8ED1FC;
+    color: black;
+    padding: 2em;
+    border-radius: 10px 0 10px 0;
+    border: none;
+    
+    
+}
+
+input::placeholder {
+
+    color: black;
+}
+
+button {
+    padding: 0.5em;
+    background-color: #031853;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #8ED1FC;
+    color: black;
+}
+
+.main-thrd{
+   
+   font-family: 'Rubik', sans-serif;
+   background-color: whitesmoke;
+   padding-bottom: 4em;
+}
+
+.toper {
+    font-size: 5rem;
+    
+    color: black;
+}
+
+.card-body{
+   height: 10em;
+   overflow: scroll;
+   
+}
+
+.card-title {
+    font-weight: 900;
+}
+
+.card-text {
+    word-wrap: break-word;
+}
+
+.footer {
+    background-color: #8ED1FC;
+    font-family: 'Rubik', sans-serif;  
+}
+
+div.footer{
+    padding: 3em;
+    
+    
+}
+
+div.footel {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.info {
+   width: 20em; 
+   word-wrap: break-word;
+   padding: 0 1em;
+    
+}
+
+.info span {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.quick-links {
+    padding: 0 3em;
+    text-decoration: none;
+}
+
+.quick-links ul {
+    text-decoration: none;
+}
+
+
+#contact {
+    width: 15em;
+    padding: 0 2em;
+    font-size: 1.2rem;
+}
+
+#contact span {
+    font-size: 2rem;
+}
+
+.footer1 {
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    padding: 1.5em 0;
+}
+
+.footer1 span {
+    font-weight: 600;
+}
